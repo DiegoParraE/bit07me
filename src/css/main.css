@@ -1,3 +1,16 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(2,0,36);
+}
 .nombre{
-    color: red;
+    color: rgb(255, 251, 0);
+    font-size: x-large;
+
+}
+img{
+    border-radius: 40px;
 }
