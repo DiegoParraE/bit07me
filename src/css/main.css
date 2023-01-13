@@ -1,16 +1,73 @@
+* {
+    margin: 20px;
+}
 
-body{
+body {
+    background-color: f0f0f0;
+}
+.header {
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.contenedorImagen {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.imagen {
+    margin: 20px;
+    width: 230px;
+    height: 280px;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.imagen img {
+    width: 80%;
+    
+}
+.contenedorTitulo {
+    display: flex;
     flex-direction: column;
-    background: rgb(2,0,36);
+    justify-content: space-around;
+    text-align: center;
 }
-.nombre{
-    color: rgb(255, 251, 0);
-    font-size: x-large;
-
+.titulo {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: yellow;
+    border-radius: 10px;
 }
-img{
-    border-radius: 40px;
+.nombre {
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+}
+.profesion {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 20px 70px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.descripcion {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.educacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+h3{
+    text-align: left;
+}
+.textoEducacion {
+    text-align: left;
+    
+}
+.experienciaLaboral {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
 }
