@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: f0f0f0;
+    background-color: #f0f0f0;
 }
 .header {
     display: flex;
@@ -58,8 +58,8 @@ body {
     justify-content: flex-start;
     align-content: flex-start;
     background-color: #ffff00;
-    margin-top: 10px;
-    margin-left: -120px;
+    margin-left: 100px;
+    
 }
 h3{
     text-align: left;
@@ -107,6 +107,11 @@ h3{
 }
 
 .vinculos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -114,4 +119,6 @@ h3{
 .vinculos img {
     width: 70px;
     height: 70px;
+    justify-content: center;
+    align-content: center;
 }
