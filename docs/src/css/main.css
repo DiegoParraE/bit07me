@@ -14,6 +14,11 @@ body {
         flex-direction: row;
     }
 }
+@media screen and (min-width: 992px) {
+    .contacto{
+        flex-direction: row;
+    }
+}
 .contenedorImagen {
     display: flex;
     justify-content: flex-start;
@@ -58,7 +63,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
-.educacion {
+/* .educacion {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -66,22 +71,22 @@ body {
     background-color: #ffff00;
     margin-left: 100px;
     
-}
-h3{
+} */
+/* h3{
     text-align: left;
 }
 .textoEducacion {
     text-align: left;
     padding-left: 30px;
     
-}
-.experienciaLaboral {
+} */
+/* .experienciaLaboral {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-content: center;
     background-color: #ffff00;
-}
+} */
 .bloque1 {
     display: flex;
     flex-direction: row;
@@ -114,10 +119,10 @@ h3{
 
 .vinculos {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    /* justify-content: center;
     align-content: center;
-    text-align: center;
+    text-align: center; */
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -127,7 +132,4 @@ h3{
     height: 70px;
     justify-content: center;
     align-content: center;
-}
-@media screen {
-    
 }
